@@ -13,6 +13,10 @@
   <a href="https://github.com/pixpark/facebetter-obs-plugin/releases" target="_blank">Download</a>
 </p>
 
+<p align="center">
+  <img src="./assets/obs-hero.webp" alt="Facebetter beauty panel in OBS Studio" width="880">
+</p>
+
 ## Introduction
 
 A real-time beauty filter for [OBS Studio](https://obsproject.com/). Skin, reshape, makeup, body, LUT filters, stickers, and virtual background run on your machine and go out with the stream.

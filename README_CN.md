@@ -13,6 +13,10 @@
   <a href="https://github.com/pixpark/facebetter-obs-plugin/releases" target="_blank">下载</a>
 </p>
 
+<p align="center">
+  <img src="./assets/obs-hero.webp" alt="OBS 中的 Facebetter 美颜面板" width="880">
+</p>
+
 ## 介绍
 
 给 [OBS Studio](https://obsproject.com/) 用的实时美颜滤镜。美肤、美型、美妆、美体、LUT、贴纸和虚拟背景都在本机处理，直接进直播画面。
