@@ -45,18 +45,17 @@
 ## macOS
 
 1. 解压。
-2. 打开 `Facebetter-OBS-*-macos-universal.pkg`。
+2. 把整个 `facebetter.plugin` 文件夹复制到：
+
+   `~/Library/Application Support/obs-studio/plugins/`
+
+   完整路径：`~/Library/Application Support/obs-studio/plugins/facebetter.plugin`
+
+   这个目录默认隐藏。在访达里按 Shift + Command + G，粘贴路径后回车。若里面已有旧的 `facebetter.plugin`，先删掉再复制。
+
 3. 打开 OBS。
 
-插件只装给当前用户：
-
-`~/Library/Application Support/obs-studio/plugins/facebetter.plugin`
-
-安装包尚未经过苹果公证。系统可能弹出**「未打开」**，并提供**「移到废纸篓」**。不要移到废纸篓。
-
-1. 打开**「系统设置 → 隐私与安全性」**。
-2. 在被拦截的 Facebetter 安装包旁边，点**「仍要打开」**。
-3. 再确认一次**「打开」**。
+插件只给当前用户使用。若系统提示插件已损坏，对这个 `facebetter.plugin` 执行 `xattr -dr com.apple.quarantine`，再重新打开 OBS。
 
 ## Windows
 

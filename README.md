@@ -45,18 +45,17 @@ Quit OBS completely before you install, including its menu-bar item.
 ## macOS
 
 1. Unzip the download.
-2. Open `Facebetter-OBS-*-macos-universal.pkg`.
+2. Copy the whole `facebetter.plugin` folder to:
+
+   `~/Library/Application Support/obs-studio/plugins/`
+
+   Full path: `~/Library/Application Support/obs-studio/plugins/facebetter.plugin`
+
+   This folder is hidden. In Finder press Shift + Command + G, paste the path, and press Return. If an older `facebetter.plugin` is already there, delete it first.
+
 3. Open OBS.
 
-The plugin is installed for the current user only:
-
-`~/Library/Application Support/obs-studio/plugins/facebetter.plugin`
-
-The package is not notarized by Apple. macOS may show **“could not be opened”** and offer **Move to Trash**. Do not move it to the Trash.
-
-1. Open **System Settings → Privacy & Security**.
-2. Next to the blocked Facebetter installer, click **Open Anyway**.
-3. Confirm **Open**.
+The plugin is for the current user only. If macOS says the plugin is damaged, run `xattr -dr com.apple.quarantine` on that `facebetter.plugin` folder, then open OBS again.
 
 ## Windows
 
